@@ -1,0 +1,65 @@
+/*          ARTICLE         */
+
+.article .article-banner{position: relative;}
+.article .article-banner .article-img{
+    height: 600px !important;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 26%);
+}
+
+.article .views{font-size: 15px;}
+
+.article .article-category:before{content: " - ";}
+.article .article-category a{ opacity: 0.6;}
+
+.article .article-desc{
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/*          AUTHOR         */
+
+.author-info img{max-height: 100px;}
+.author-info .author-name{font-size: 20px;}
+.author-info .author-desc{
+	font-size: 15px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/*          READ ALSO           */
+
+.read-also img{
+	height: 140px;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 26%);
+}
+
+/*          RECOMMENDATIONS          */
+
+.recommendations p{font-size: 20px;}
+.recommendations ul li{hyphens: auto;}
+.recommendations ul li a{width: 90%;}
+.recommendations ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 15px;
+}
+
+/*          COMMENTS SECTION          */
+
+.comments-section .comments p{letter-spacing: 1px;line-height: 1,8;}
+.comments-section .comments p span{opacity: 0.6;}
+.comments-section .comments p span:before{content: " - ";}
+
+.comments-section .comments .datetime{
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 13px;
+}

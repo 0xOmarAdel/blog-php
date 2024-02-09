@@ -1,0 +1,20 @@
+
+.contact-us .input-wrapper {position: relative}
+
+.contact-us .input-wrapper:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+    color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+.contact-us .input-wrapper:nth-child(1):before{content: '\f007';}
+.contact-us .input-wrapper:nth-child(2):before{content: '\f0e0';}
+
+.contact-us .input-wrapper:nth-child(3):before{content: '\f1d8';}
+
+.contact-us input{padding-left: 40px !important;}

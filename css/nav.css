@@ -1,0 +1,33 @@
+/*          NAVBAR         */
+
+.navbar{
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #4e4e4e45;
+    margin-bottom: 70px;
+}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-toggler{outline: none;}
+
+.navbar .navbar-nav .nav-item a{
+    transition: 0.6s all;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-item.active a,
+.navbar .navbar-nav .nav-item:hover a{color: var(--main-color);}
+
+.navbar form input{
+    margin-right: -38px !important;
+    padding-right: 52px;
+}
+
+.navbar form button{
+    height: 38px;
+    margin-left: -4px;
+    margin-top: -2px !important;
+}

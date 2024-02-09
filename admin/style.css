@@ -1,0 +1,174 @@
+a:hover{text-decoration: none;}
+
+body{
+    background-color: #eeeeef;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    width: 30%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px #888888;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0px 80px;
+}
+
+.form form h1{
+    color: #3737afc7;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.form form input[type="text"],
+.form form input[type="password"]{
+    color: #a09e9e;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee6b;
+    font-size: 16px;
+    text-indent: 10px;
+}
+
+.form form .invalid{
+    border: 1px solid red !important;
+}
+
+.form form input[type="submit"]{
+    background-image: linear-gradient(to left, #19d7e6 , #0a26a4);
+    cursor: pointer;
+    padding: 15px 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    outline: none;
+}
+
+.navbar{background-color: #fbfbfb;border-bottom: 1px solid #4e4e4e45;}
+.navbar a{color: white !important;}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: black !important;
+    opacity: 0.7;
+}
+
+
+.stats{
+    padding: 60px 0;
+}
+
+.stats .stats-box-container .stats-box{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 30px 0;
+    letter-spacing: 1px;
+    height: 152px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px #88888880;
+}
+
+.stats .stats-box-container .stats-box::before,
+.stats .stats-box-container .stats-box::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.stats .stats-box-container .stats-box::before{
+    top: -25px;
+    left: -35px;
+}
+
+.stats .stats-box-container .stats-box::after{
+    bottom: -25px;
+    right: -20px;
+}
+
+.stats .stats-box-container:nth-child(1) .stats-box{background-color: #b97ef6;}
+.stats .stats-box-container:nth-child(2) .stats-box{background-color: #6987e5;}
+.stats .stats-box-container:nth-child(3) .stats-box{background-color: #fea789;}
+.stats .stats-box-container:nth-child(4) .stats-box{background-color: #ef4e82;}
+
+.stats .stats-box-container:nth-child(1) .stats-box:before,
+.stats .stats-box-container:nth-child(1) .stats-box:after{background-color: #c38cfd;}
+
+.stats .stats-box-container:nth-child(2) .stats-box:before,
+.stats .stats-box-container:nth-child(2) .stats-box:after{background-color: #809cf0;}
+
+.stats .stats-box-container:nth-child(3) .stats-box:before,
+.stats .stats-box-container:nth-child(3) .stats-box:after{background-color: #f3b7a4;}
+
+.stats .stats-box-container:nth-child(4) .stats-box:before,
+.stats .stats-box-container:nth-child(4) .stats-box:after{background-color: #f16d97;}
+
+
+
+section:not(:first-of-type) > div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 10px 1px #88888880;
+}
+
+section:not(:first-of-type) p{font-size: 20px;}
+
+section:not(:first-of-type) table{width: 100%;}
+
+section:not(:first-of-type) table th,
+section:not(:first-of-type) table td{padding: 20px 10px;}
+
+section:not(:first-of-type) table td{
+    border-top: 1px solid #eeeeef;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+
+section:not(:first-of-type) table td a{font-size: 20px;margin: 10px;}
+
+section:not(:first-of-type) table td a:first-of-type{color: #59c72b;}
+section:not(:first-of-type) table td a:last-of-type{color: #ef4e82;}
+
+
+section:not(:first-of-type) input[type="radio"]:not(:first-of-type){margin-left: 20px;}
+section:not(:first-of-type) input[type="number"]{width: 90%; display: inline-block}
+section:not(:first-of-type) input[type="submit"]{margin-top: -3px;}
+
+section:not(:first-of-type) input[type="text"],
+section:not(:first-of-type) input[type="file"],
+section:not(:first-of-type) textarea,
+section:not(:first-of-type) select{margin-bottom: 20px;}
